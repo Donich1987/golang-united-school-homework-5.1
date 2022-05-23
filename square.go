@@ -11,7 +11,7 @@ type Square struct {
 
 func (Super Square) End() Point {
 	// implement me
-	End := Point{Super.start.x + int(Super.a), Super.start.y - int(Super.a)}
+	End := Point{Super.start.x - int(Super.a), Super.start.y + int(Super.a)}
 	return End
 }
 
